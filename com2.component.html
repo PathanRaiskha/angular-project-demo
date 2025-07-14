@@ -1,0 +1,68 @@
+<div class="row" style="height: 300px;">
+  <div class="col-8" style="height: inherit;">
+
+
+    <!-- <div class="my-spinner-container">
+
+        <div class="spinner-container">
+  
+          <div class="spinner-border text-primary mt-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+  
+      </div> -->
+
+
+
+
+    <div class="overlay-container d-flex align-items-center justify-content-center" style="height: inherit;">
+      @if(SpinnerStoper==true){
+        <div class="overlay">
+          <div class="spinner-border text-primary mt-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      }
+      <div class="content" style="height: inherit; overflow-y: scroll;">
+        Here's 100 lines of randomly generated text:
+
+        The sun dipped below the horizon, painting the sky in hues of orange and pink.
+        A cat sat on the windowsill, staring at the raindrops trickling down the glass.
+        He opened the old book, its pages yellowed with time and wisdom.
+        The wind howled through the trees, whispering secrets only the night could understand.
+        She laughed, the sound echoing through the empty hallway.
+        A single candle flickered in the dark room, casting long shadows on the walls.
+        The river flowed lazily, carrying with it leaves and forgotten memories.
+        Birds chirped a melody as the morning sun bathed the earth in light.
+        A mysterious letter arrived at his doorstep, addressed to a name he didn’t recognize.
+        The old clock on the wall ticked slowly, marking each moment with a soft chime.
+        He picked up a pebble and tossed it into the pond, watching the ripples spread.
+        Her footsteps were light, barely making a sound on the wooden floor.
+        The library smelled of ink, parchment, and the quiet wisdom of countless books.
+        Thunder rumbled in the distance, signaling the approach of a storm.
+        The flickering neon sign buzzed in the quiet alleyway.
+        A stray dog followed him, tail wagging with hopeful anticipation.
+        The mountain stood tall, its peak hidden by swirling clouds.
+        She traced her finger over the map, searching for a place she had never been.
+        The little boy held his mother's hand tightly as they crossed the street.
+        Thunder rumbled in the distance, signaling the approach of a storm.
+        The flickering neon sign buzzed in the quiet alleyway.
+        A stray dog followed him, tail wagging with hopeful anticipation.
+        The mountain stood tall, its peak hidden by swirling clouds.
+        She traced her finger over the map, searching for a place she had never been.
+        The little boy held his mother's hand tightly as they crossed the street.
+        A violin played in the
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="col-4">
+    <button class="btn btn-primary me-2" (click)="show()">start</button>
+    <button class="btn btn-secondary" (click)="hide()">stop</button>
+
+
+  </div>
+</div>
